@@ -1,3 +1,4 @@
+/*Navigation codiing*/
 #header ul {
     position: absolute;
     left: 0px;
@@ -35,22 +36,26 @@
     background-color: #ff9900;
 }
 
+/*body coding*/
+
 body {
-    background-color: #ffe982;
+    background-color: #ffffff;
 }
 
+/*table coding*/
 
 table {
-    border-collapse: collapse;
+
     background-color: azure;
 }
 th {
-    height: 50px;
-    width: 100px;
+    height: 35px;
+    width: 75px;
     background-color: aquamarine;
+    border: 1px solid black;
 }
 td {
-
+    border-collapse: collapse;
 
 }
 th, td {
@@ -58,7 +63,8 @@ th, td {
     text-align: left;
 
 }
-tabel, th, td {
-    border: 1px solid black;
+tr:nth-child(even){
+    background-color: #f2f2f2;
 }
 
+/*Form coding*/
