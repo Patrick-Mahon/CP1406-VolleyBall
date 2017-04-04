@@ -1,7 +1,7 @@
 #header ul {
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: 50px;
     margin: 0px;
     padding: 0px;
     background: #f0f3ff;
@@ -38,3 +38,27 @@
 body {
     background-color: #ffe982;
 }
+
+
+table {
+    border-collapse: collapse;
+    background-color: azure;
+}
+th {
+    height: 50px;
+    width: 100px;
+    background-color: aquamarine;
+}
+td {
+
+
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+
+}
+tabel, th, td {
+    border: 1px solid black;
+}
+
