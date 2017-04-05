@@ -36,6 +36,8 @@ body {
 }
 h1 {
     font-style: oblique;
+    background-color: bisque;
+    border: 1px solid black;
 }
 
 /*table coding*/
@@ -78,6 +80,11 @@ select {
 #agreement {
     left: 0px;
 }
+/*Cannot move check box to left side, possible box problem?*/
+#checkbox {
+
+
+}
 
 /*Boxes*/
 #box {
@@ -86,6 +93,7 @@ select {
     margin: 5px;
     border: 1px solid black;
     float: left;
+    background-color: bisque;
 
 }
 #box2 {
@@ -96,9 +104,15 @@ select {
     border: 1px solid black;
     text-align: justify;
     float: left;
+    background-color: bisque;
 }
 #box3 {
     background-color: azure;
 
+}
+
+/*Fotter*/
+footer {
+    float: left;
 
 }
