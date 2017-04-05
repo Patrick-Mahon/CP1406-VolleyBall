@@ -32,11 +32,11 @@
 /*body coding*/
 
 body {
-    background-color: #f9fdff;
+    background: linear-gradient(135deg, #d1fffc 1%,#9ee6ef 100%);
 }
 h1 {
     font-style: oblique;
-    background-color: bisque;
+    background: #fdff53;
     border: 1px solid black;
    width: 1035px;
 }
@@ -45,12 +45,12 @@ h1 {
 
 table {
 
-    background-color: azure;
+    background-color: #fbffbc;
 }
 th {
     height: 35px;
     width: 75px;
-    background-color: aquamarine;
+    background-color: #ffda36;
     border: 1px solid black;
 }
 td {
@@ -72,7 +72,7 @@ input {
     width: 97%;
     margin: 5px;
     padding: 8px 10px;
-    background-color: lightgray;
+    background-color: #fffda4;
 }
 select {
     margin: 5px;
@@ -94,7 +94,7 @@ select {
     margin: 5px;
     border: 1px solid black;
     float: left;
-    background-color: bisque;
+    background-color: #fdff53;
     font-family: "Baskerville Old Face";
 }
 #box2 {
@@ -105,7 +105,7 @@ select {
     border: 1px solid black;
     text-align: justify;
     float: left;
-    background-color: bisque;
+    background-color: #fdff53;
 
 }
 #box3 {
@@ -117,6 +117,8 @@ select {
 }
 img {
     float: right;
+    width: 450px;
+    height: 420px;
 }
 /*Fotter*/
 footer {
