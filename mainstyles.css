@@ -20,7 +20,7 @@
 }
 #header ul li a:hover {
     color: #161616;
-    background-color: #37dcff;
+    background-color: #ffe982;
 }
 
 #header ul li a:visited {
@@ -28,15 +28,17 @@
     background-color: #ffe982;
 }
 
+
 /*body coding*/
 
 body {
-    background-color: azure;
+    background-color: #f9fdff;
 }
 h1 {
     font-style: oblique;
     background-color: bisque;
     border: 1px solid black;
+   width: 1035px;
 }
 
 /*table coding*/
@@ -93,7 +95,7 @@ select {
     border: 1px solid black;
     float: left;
     background-color: bisque;
-
+    font-family: "Baskerville Old Face";
 }
 #box2 {
     width: 900px;
@@ -104,6 +106,7 @@ select {
     text-align: justify;
     float: left;
     background-color: bisque;
+
 }
 #box3 {
     background-color: azure;
@@ -112,7 +115,9 @@ select {
     top: 5%;
     border: 1px solid black;
 }
-
+img {
+    float: right;
+}
 /*Fotter*/
 footer {
     float: left;
