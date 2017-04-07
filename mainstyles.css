@@ -109,9 +109,10 @@ img {
     float: right;
     width: 450px;
     height: 420px;
+    border: 1px solid black;
 }
+
 /*Fotter*/
 footer {
     float: left;
 }
-
